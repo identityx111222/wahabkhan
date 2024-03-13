@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    a {
+      text-decoration: none;
+      margin-right: 20px;
+      color: white;
+    }
+    a:hover {
+      color: #ccc;
+    }
+  }
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    color: whitesmoke;
+    
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  
+  }
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .hero button:hover {
+    background-color: #333;
+  }
+
+  .about-us,
+.contact {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+header {
+  background: linear-gradient(to right, black, grey);
+}
+
+.hero {
+  background-color: #90f; /* Light blue */
+}
+
+.about-us {
+    background-color: white; /* White */
+    color: #000;
+    text-align: center;
+  }
+  
+  .contact {
+    background-color: #ddd; /* Light gray */
+  }
+  .hero h2 {
+    color: white; /* Dark gray */
+  }
+  
+  .hero p {
+    color: white; /* Mid gray */
+}
+.hero button {
+    background: linear-gradient(to left, black, #D3A222);
+    color: #fff; /* White */
+  }
+  .hero {
+    background: linear-gradient(to right, black, grey);
+  }
+  
+  .hero button {
+    background: linear-gradient(to right, black, #D3A222);
+  }
+  .contact {
+    background: linear-gradient(to right , black,grey); /* Light blue */
+    padding: 50px;
+  }
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact label {
+    font-weight: bold;
+    color: white; /* Dark gray */
+  }
+  
+  .contact input,
+  .contact textarea {
+    background-color: #fff; /* White */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  contact button {
+    background-color: #001aff; /* Blue */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #0062cc; /* Darker blue on hover */
+  }
+  h2 {
+    color: white; /* Dark gray */
+  }
+    
+  p {
+    text-align: center;
+    text-decoration: linear-gradient(to right, black, red);
+  }    
+  @media only screen and (max-width: 768px) {
+    header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header nav a {
+      margin-bottom: 10px;
+    }
+  }
